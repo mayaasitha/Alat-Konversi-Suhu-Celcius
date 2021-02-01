@@ -1,0 +1,16 @@
+#Alat konversi suhu
+Celcius = float(input('Suhu Celcius: '))
+Reamur = Celcius*0.8
+Romer = Celcius*21/40+7.5
+Kelvin = Celcius+273.15
+Rankine = 1.8*(Celcius+491.67)
+Newton = Celcius*33/100
+Fahrenheit = Celcius*1,8+32
+Delisle = (100-Celcius)*1.5
+print('Reamur:', Reamur, '°Ré')
+print('Romer:', Romer,'°Rø')
+print('Kelvin:', Kelvin,'K')
+print('Rankine:', Rankine,'°Ra')
+print('Newton:', Newton,'°N')
+print('Fahrenheit:', Fahrenheit,'°F')
+print('Delisle:', Delisle,'°De')
